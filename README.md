@@ -75,7 +75,7 @@ lib/
 
 1. **Projeyi klonlayın**
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/HasanKoc33/nodelabs.git)
 cd nodelabs
 ```
 
@@ -89,13 +89,7 @@ flutter pub get
 dart run build_runner build --delete-conflicting-outputs
 ```
 
-4. **API anahtarını ayarlayın**
-`lib/core/constants/app_constants.dart` dosyasında `apiKey` değerini güncelleyin:
-```dart
-static const String apiKey = 'YOUR_TMDB_API_KEY_HERE';
-```
-
-5. **Uygulamayı çalıştırın**
+4. **Uygulamayı çalıştırın**
 ```bash
 flutter run
 ```
@@ -134,25 +128,23 @@ flutter run
 - Premium üyelik teklifi
 - Özellik listesi
 - Call-to-action butonları
+## 📱 Ekran Görüntüleri
 
-## 📸 Ekran Görüntüleri
+| Ana Sayfa | Sınırlı Teklif | Giriş |
+|:---------:|:--------------:|:-----:|
+| <img src="https://raw.githubusercontent.com/HasanKoc33/nodelabs/refs/heads/main/assets/screenshots/home_screen_screenshot..jpeg" width="250"/> | <img src="https://raw.githubusercontent.com/HasanKoc33/nodelabs/refs/heads/main/assets/screenshots/limittedOffer_screen_screenshot..jpeg" width="250"/> | <img src="https://raw.githubusercontent.com/HasanKoc33/nodelabs/refs/heads/main/assets/screenshots/login_screen_screenshot.jpeg" width="250"/> |
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/4f0d7c21-8f04-4ee8-8c9e-0c1f7c4b9f8c" width="250"> Splash Screen | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/7b3e5e8f-8a3e-4b3c-a8a2-1f4e9c1b9e9a" width="250"> Giriş Ekranı | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/0a3e9c1c-5f1d-4b9e-8c9b-5c5c5c5c5c5c" width="250"> Kayıt Ekranı |
-| <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/9d8b3e9a-1b3e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Ana Sayfa | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/2c4e3d1a-1b3e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Profil Sayfası | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/1b3e4c1e-8c9e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Sınırlı Teklif |
+| Profil | Kayıt |
+|:------:|:-----:|
+| <img src="https://raw.githubusercontent.com/HasanKoc33/nodelabs/refs/heads/main/assets/screenshots/profile_screen_screenshot..jpeg" width="250"/> | <img src="https://raw.githubusercontent.com/HasanKoc33/nodelabs/refs/heads/main/assets/screenshots/register_screen_screenshot..jpeg" width="250"/> |
 
 ## 🔧 Yapılandırma
 
 ### API Yapılandırması
 `lib/core/constants/app_constants.dart` dosyasında:
-- TMDB API anahtarını ekleyin
 - Base URL'leri kontrol edin
 
-### Firebase Yapılandırması (Opsiyonel)
-1. Firebase Console'da proje oluşturun
-2. `google-services.json` (Android) ve `GoogleService-Info.plist` (iOS) dosyalarını ekleyin
-3. Firebase SDK'ları otomatik olarak başlatılacak
+
 
 ### Tema Özelleştirmesi
 `lib/core/theme/app_theme.dart` dosyasında renkleri ve stilleri özelleştirin.
