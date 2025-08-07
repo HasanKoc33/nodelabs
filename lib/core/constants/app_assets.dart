@@ -1,0 +1,1 @@
+/// AppAsets enum/// This enum contains the paths to the assets used in the application.enum AppAssets {  /// app launcher icon  appIcon('assets/images/app_icon.png'),  /// app splash image  splashImage('assets/images/SinFlixSplash.png'),  ;  const AppAssets(this.value,);  /// AppAsets degeri  final String value;}
