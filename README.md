@@ -135,6 +135,13 @@ flutter run
 - Özellik listesi
 - Call-to-action butonları
 
+## 📸 Ekran Görüntüleri
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/4f0d7c21-8f04-4ee8-8c9e-0c1f7c4b9f8c" width="250"> Splash Screen | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/7b3e5e8f-8a3e-4b3c-a8a2-1f4e9c1b9e9a" width="250"> Giriş Ekranı | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/0a3e9c1c-5f1d-4b9e-8c9b-5c5c5c5c5c5c" width="250"> Kayıt Ekranı |
+| <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/9d8b3e9a-1b3e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Ana Sayfa | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/2c4e3d1a-1b3e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Profil Sayfası | <img src="https://github.com/hasankocdogan/nodelabs/assets/11295297/1b3e4c1e-8c9e-4c1e-8c9e-0c1f7c4b9f8c" width="250"> Sınırlı Teklif |
+
 ## 🔧 Yapılandırma
 
 ### API Yapılandırması
@@ -176,23 +183,3 @@ flutter build appbundle --release
 ```bash
 flutter build ios --release
 ```
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'i push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## 📞 İletişim
-
-Sorularınız için issue açabilir veya e-posta gönderebilirsiniz.
-
----
-
-**Not**: Bu uygulama TMDB API kullanmaktadır. API anahtarı almak için [TMDB](https://www.themoviedb.org/settings/api) sitesine kayıt olun.
